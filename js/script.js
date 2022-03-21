@@ -22,6 +22,9 @@ function compare(a,b){
 }
 
 function singleRound(playerSelection,computerSelection){
-    let roundResult = compare(playerSelection.toLowerCase(),computerPlay());
+    let roundResult = compare(playerSelection.toLowerCase(),computerSelection);
 
+    if(roundResult === -1) return `Draw! both selected ${playerSelection}.`;
+
+    return `${(roundResult===1)?`You win! ${playerSelection} beats ${computerSelection}`:`You lose! ${computerSelection} beats ${playerSelection}` }`;
 }
