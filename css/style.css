@@ -1,0 +1,57 @@
+body{
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+#gameover{
+    cursor:pointer;
+}
+.player-color{
+    color: green;
+}
+.computer-color{
+    color: red;
+}
+.draw-color{
+    color: orange;
+}
+.neutral-color{
+    color: gray;
+}
+.flex-container{
+    display: flex;
+}
+.container{
+    width: 70%;
+    padding: 1em;
+    text-align: center;
+}
+.choice-container{
+    justify-content: center;
+    gap: 20%;
+}
+.option{
+    border: 2px solid black;
+    padding: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.choiced-player{
+    border: 2px solid green;
+}
+.choiced-comp{
+    border: 2px solid red;
+}
+.choiced-both{
+    border: 2px solid orange;
+}
+.option-container{
+    justify-content: center;
+    gap: 1em;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
