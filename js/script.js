@@ -117,7 +117,7 @@ function compare(a,b){
 }
 
 function printResult(playerSelection,computerSelection,roundResult){
-    if(roundResult === -1) return `Draw! both selected ${playerSelection}.`;
+    if(roundResult === -1) return `Tie! both selected ${playerSelection}.`;
     return `${(roundResult===1)?`You win! ${playerSelection} beats ${computerSelection}`:`You lose! ${computerSelection} beats ${playerSelection}` }`;
 }
 
