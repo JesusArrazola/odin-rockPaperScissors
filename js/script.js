@@ -1,8 +1,5 @@
 //UI elements
 const btns = document.querySelectorAll('div.option');
-const btnRock = document.querySelector('div#rock');
-const btnPaper = document.querySelector('div#paper');
-const btnSciss = document.querySelector('div#scissors');
 const parResult = document.querySelector('p#result-message');
 const playScore = document.querySelector('span#player-score');
 const compScore = document.querySelector('span#comp-score');
